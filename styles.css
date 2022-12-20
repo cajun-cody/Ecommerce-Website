@@ -1,0 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+
+nav ul{
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+nav h3{
+    display: inline;
+    text-align: center;
+}
