@@ -2,12 +2,72 @@ html{
     box-sizing: border-box;
 }
 
-nav ul{
-    display: inline;
-    margin-left: 0.5rem;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 50;
+    background-color: white;    
 }
 
-nav h3{
-    display: inline;
-    text-align: center;
+header{
+background-color: white;
+padding: 1rem;
+border-bottom: 1px;
+width: 1000px;
+height: 65px;
+}
+
+nav{
+    display: flex;
+    border-bottom: 2px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: ;
+}
+
+
+.centerpiece {
+    display: inline-flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: medium;
+}
+
+.centerpiece img{
+    width: 30px;
+}
+
+.search {
+    align-items: right;
+}
+
+.home img {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.home .contentone {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    color: white;
+    background-color: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: normal;
+}
+.home .contenttwo {
+    position: absolute;
+    align-items: right;
+    color: white;
+    background-color: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: normal;
 }
