@@ -47,27 +47,62 @@ nav ul a {
     align-items: right;
 }
 
-.home img {
+.home {
+    background-image: url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
     position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    height: 30rem;
 }
-.home .contentone {
-    position: absolute;
-    top: 200px;
-    left: 20px;
-    color: white;
-    background-color: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: normal;
+
+.content {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
-.home .contenttwo {
-    position: absolute;
-    align-items: right;
+.content_left{
+    float: left;
     color: white;
-    background-color: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: normal;
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+.content_right{
+    color: white;
+    margin-top: 16em;
+    margin-right: 1rem;
+    margin-left: 33rem;
+}
+
+.about {
+    display: grid;
+
+}
+
+.about_us{
+    width: 60%;
+    border-bottom: 3px solid black;
+} 
+
+.img_left {
+    width: 125px;
+}
+
+.img_right {
+    width: 200px;
+    justify-self: end;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.products_img{
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
 }
