@@ -12,7 +12,7 @@ header{
 background-color: white;
 padding: 1rem;
 border-bottom: 1px;
-width: 1000px;
+width: 1200px;
 height: 65px;
 }
 
@@ -76,30 +76,42 @@ nav ul a {
 }
 
 .about {
-    width: 1200px;
+    margin-left: 50px;
+    margin-left: 50px;
 }
 
-.about_us{
-    width: 60%;
-    border-bottom: 3px solid black;
-} 
-
-.about-item{
-    display: flex;
+.about-container{
+    display: grid;
+    grid-template-areas:
+        "top-p top-p img-1"
+        "img-2 mid-p img-1"
+        "img-2 bot-p img-1";
+    grid-gap: 25px;
 }
 
-.img_left{
-    display: flex;
-    width: 250%;
-    height: fit-content;
-    align-self: flex-end;
+.about-img-1{
+    transform: scaleX(-1); 
+    grid-area: img-1;
 }
 
-.img_right {
-    display: flex;
-    width: 65%;
-    height: fit-content;
+
+.about-img-2{
+    grid-area: img-2;
 }
+
+
+.about-p-1{
+    grid-area: top-p;
+}
+
+.about-p-2{
+    grid-area: mid-p;
+}
+
+.about-p-3{
+    grid-area: bot-p;
+}
+
 
 .products{
     display: grid;
@@ -123,6 +135,65 @@ nav ul a {
     height: 225px;
 }
 
+form{
+    margin-top: 40px;
+    display: grid;
+    width: 50%;
+    align-items: center;
+    margin-left: 220px;
+}
 
+.contact-button{
+    background-color: orange;
+    float: right;
+    width: 20%;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: 450px;
+}
 
+footer{
+    width: 1200px;
+    height: 200px;
+    background-color: orange;
+    margin-top: 50px;
+}
 
+.footer-container{
+    display: grid;
+    grid-template-areas: 
+        "ft-1 ft-2 ft-3"
+        ". fb-4 fb-5" ;
+    
+}
+
+.footer-1{
+    grid-area: ft-1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 89px;
+}
+
+.footer-2{
+    grid-area: ft-2;
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 64px;
+}
+
+.footer-3{
+    grid-area: ft-3;
+    display: flex;
+    margin-right: 139px;
+}
+
+.footer-4{
+    grid-area: fb-4;
+}
+
+.footer-5{
+    grid-area: fb-5;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,19 @@
     <link rel="stylesheet" href="styles.css">
     <title>CARA CARA</title>
 </head>
+
 <body>
     <header>
-        <nav>  
+        <nav>
             <ul>
-                <a href="">HOME</a>
-                <a href="">ABOUT</a>
-                <a href="">PRODUCT</a>
-                <a href="">CONTACT</a>
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#products">PRODUCT</a>
+                <a href="#contact">CONTACT</a>
             </ul>
             <div class="centerpiece">
                 <p>CARA</p>
-                    <img src="assets/icons8-pottery-96.png" alt="Tan Pot Image">
+                <img src="assets/icons8-pottery-96.png" alt="Tan Pot Image">
                 <p>CARA</p>
             </div>
             <div class="search">
@@ -27,176 +29,224 @@
             <a href="">CART (0)</a>
         </nav>
     </header>
+
     <main>
-        <section class="home">
-                <div class="content">
-                    <p class="content_left">CERAMICS CRAFTED BY HAND...</p>
-                    <p class="content_right">...FROM THE GROUND UP</p>
-                </div>
+        <section class="home" id="home">
+            <div class="content">
+                <p class="content_left">CERAMICS CRAFTED BY HAND...</p>
+                <p class="content_right">...FROM THE GROUND UP</p>
+            </div>
         </section>
-        <section class="about">
-            <div class="about_us">
-                <h2>ABOUT US</h2>
+        <section class="section" id="about">
+            <div>
+                <h2 class="section-heading mb-s">ABOUT US</h2>
+                <hr class="hr-primary hr-primary__section mb-1" />
             </div>
-            <div class="about-item">
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. 
-                Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. 
-                Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut 
-                faucibus. Elit duis tristique sollicitudin nibh sit amet commodo.
-                <p>
-                <img src="assets/Vase_Dame_2048x2048.jpg" class="img_left" alt="Vase Dame plant">    
-            <div>
-            <div class="about-item">
-                <img src="assets/Cylinder_unglazed3_2048x2048.jpg" class="img_right" alt="Cylinder unglazed">           
-                <p>
-                Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a 
-                arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique 
-                magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus 
-                dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed 
-                sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus 
-                sit amet dictum sit amet justo donec enim.
-                </p>
-            <div>
-            <div class="about-item">
-                <p>
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet
-                massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus 
-                </p> 
-            <div>
+            <div class="about-container">
+                <div class="about-p-1" >
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl
+                        tincidunt.
+                        Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas
+                        maecenas.
+                        Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur
+                        purus ut
+                        faucibus. Elit duis tristique sollicitudin nibh sit amet commodo.
+                    <p>
+                </div>
+                <div class="about-img-1">
+                    <img width="100%" src="assets/Cylinder_unglazed3_2048x2048.jpg" alt="Cylinder unglazed">
+                </div>
+                <div class="about-img-2">
+                    <img width="75%" src="assets/Vase_Dame_2048x2048.jpg" alt="Vase Dame plant">
+                </div>
+                <div class="about-p-2">
+                    <p >
+                        Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a
+                        arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique
+                        magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus
+                        dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed
+                        sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus
+                        sit amet dictum sit amet justo donec enim.
+                    </p>
+                </div>
+                <div class="about-p-3"> 
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet
+                        massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae
+                        purus
+                    </p>
+                </div>
+            </div>
         </section>
-        <section>
-        <h2 class="our-products-title">
-            OUR PRODUCTS
-        </h2>
-        <div class="products">
-            <div class="item">
-                <img src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo Bowls">
-                <div class=""><a href="">MUNDO BOWLS</a></div>
-                <div class="price">$48.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+        <section id="products">
+            <h2 class="our-products-title">
+                OUR PRODUCTS
+            </h2>
+            <div class="products">
+                <div class="item">
+                    <a href="">
+                        <img width="300px" src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo Bowls">
+                    </a> 
+                    <div class=""><a href="">MUNDO BOWLS</a></div>
+                    <div class="price">$48.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
-            </div>
-            <div class="item">
-                <img src="assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Natureza Vase">
-                <div class=""><a href="">NATUREZA VASE</a></div>
-                <div class="price">$37.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                <div class="item">
+                    <a href="">
+                        <img width="110%" src="assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Natureza Vase">
+                    </a>                     
+                    <div class=""><a href="">NATUREZA VASE</a></div>
+                    <div class="price">$37.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
-            </div>
-            <div class="item">
-                <img src="assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Feira Bowls">
-                <div class=""><a href="">FEIRA BOWLS</a></div>
-                <div class="price">$29.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                <div class="item">
+                    <a href="">
+                        <img width="100%" src="assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Feira Bowls">
+                    </a>      
+                    <div class=""><a href="">FEIRA BOWLS</a></div>
+                    <div class="price">$29.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
-            </div>
-            <div class="item">
-                <img src="assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Natureza Pots">
-                <div class=""><a href="">NATUREZA POTS</a></div>
-                <div class="price">$59.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                <div class="item">
+                    <a href="">
+                        <img width="100%" src="assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Natureza Pots">
+                    </a>              
+                    <div class=""><a href="">NATUREZA POTS</a></div>
+                    <div class="price">$59.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
-            </div>
-            <div class="item">
-                <img src="assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Pedra Vase">
-                <div class=""><a href="">PEDRA VASE</a></div>
-                <div class="price">$48.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                <div class="item">
+                    <a href="">
+                        <img width="100%" height="226px" src="assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Pedra Vase">
+                    </a>
+                    <div class=""><a href="">PEDRA VASE</a></div>
+                    <div class="price">$48.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
-            </div>
-            <div class="item">
-                <img src="assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Viaja Pots">
-                <div class=""><a href="">VIAJA POTS</a></div>
-                <div class="price">$57.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                <div class="item">
+                    <a href="">
+                        <img width="100%" src="assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Viaja Pots">
+                    </a>
+                    <div class=""><a href="">VIAJA POTS</a></div>
+                    <div class="price">$57.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
-            </div>
-            <div class="item">
-                <img src="assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Servico Plates">
-                <div class=""><a href="">SERVIÇO PLATES</a></div>
-                <div class="price">$35.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                <div class="item">
+                    <a href="">
+                        <img width="100%" src="assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Servico Plates">
+                    </a>
+                    <div class=""><a href="">SERVIÇO PLATES</a></div>
+                    <div class="price">$35.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
-            </div>
-            <div class="item">
-                <img src="assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="Campeao Vase">
-                <div class=""><a href="">CAMPEÂO VASE</a></div>
-                <div class="price">$37.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                <div class="item">
+                    <a href="">
+                        <img width="100%" src="assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="Campeao Vase">
+                    </a>
+                    <div class=""><a href="">CAMPEÂO VASE</a></div>
+                    <div class="price">$37.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
-            </div>
-            <div class="item">
-                <img src="assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Troca Bowls">
-                <div class=""><a href="">TROCA BOWLS</a></div>
-                <div class="price">$25.00</div>
-                <div class="info">
-                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
-                quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                <div class="item">
+                    <a href=""
+>                       <img width="100%" src="assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Troca Bowls">
+                    </a>                    
+                    <div class=""><a href="">TROCA BOWLS</a></div>
+                    <div class="price">$25.00</div>
+                    <div class="info">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo
+                        quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+                    </div>
+                    <a href="">LEARN MORE</a>
+                    <button class="add to cart" type="button">ADD TO CART</button>
                 </div>
-                <a href="">LEARN MORE</a>
-                <button class="add to cart" type="button">ADD TO CART</button>
             </div>
-        </div>
         </section>
-        <section class="contact us">
-            <h2>CONTACT US</h2>
-                <form>
+        <section class="contact-us" id="contact">
+            <div>
+                <h2 class=""section-heading mb-s>CONTACT US</h2>
+                <hr class="hr-primary hr-primary__section mb-1">
+            </div>
+            <div>
+                <form class="contact">
                     <label for="email">EMAIL</label>
                     <input type="text" id="email">
                     <label for="message">MESSAGE</label>
-                    <textarea name="message" rows="10" cols="50"></textarea>
-                    <button type="button">SEND</button>
-                </form>   
+                    <textarea id="message"name="message" rows="10" cols="50"></textarea>
+                    <div class="contact-button">
+                        <button type="contact-button">SEND</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
         <div class="footer">
-            <h3>CARA</h3>
-               <img src="assets/icons8-pottery-96 (1).png" alt="Tan Pot Image">
-            <h3>CARA</h3>
-            <div class="social media">
-                <a href=""><img src="assets/icons8-facebook-96 (1).png" alt="Facebook"></a>
-                <a href=""><img src="assets/icons8-tiktok-96.png" alt="TikTok"></a>
-                <a href=""><img src="assets/icons8-youtube-96.png" alt="Youtube"></a>
-                <a href=""><img src="assets/icons8-instagram-96.png" alt="Instagram"></a>
-            </div>
-            <p>Pretium nibh ipsum consequat nisl vel pretium.</p>
-            <p>Amet tellus cras adipiscing enum eu turpis.</p>
-            <p>©Copyright 2015 - 2020</p>
+            <div class="footer-container">
+                <div class="footer-1">
+                    <a href=""><img src="assets/icons8-facebook-96 (1).png" alt="Facebook"></a>
+                    <a href=""><img src="assets/icons8-youtube-96.png" alt="Youtube"></a>
+                </div>
+                <div class="footer-2">
+                    <p>CARA</p>
+                    <img src="assets/icons8-pottery-96 (1).png" alt="Tan Pot Image">
+                    <p>CARA</p>
+                </div>                    
+                <div class="footer-3">
+                    <a href=""><img src="assets/icons8-tiktok-96.png" alt="TikTok"></a>
+                    <a href=""><img src="assets/icons8-instagram-96.png" alt="Instagram"></a>
+                </div>  
+                <div class="footer-4">
+                    <p>Pretium nibh ipsum consequat nisl vel pretium.</p>
+                    <p>Amet tellus cras adipiscing enum eu turpis.</p>
+                </div>
+                <div class="footer-5">
+                    <p>©Copyright 2015 - 2020</p>
+                </div>
+            </div>  
         </div>
     </footer>
 </body>
